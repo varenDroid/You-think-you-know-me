@@ -67,7 +67,7 @@ function game(){
 function displayScore(){
   console.log("Yay! you finished the game and you scored "+score);
   console.log("Check out the high scores!");
-  highScores.map(record => (console.log(record.name , " : " , record.score)));
+  highScores.map(record => (console.log(record.name + " : " + record.score)));
 }
 
 welcome();
